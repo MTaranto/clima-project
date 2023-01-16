@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/assets/images/clouds-49520_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+}
+h1 {
+    color: #FFF;
+    margin-bottom: 20px;
+    margin-left: -40px;
+    text-shadow: 2px 2px 2px #555;
+}
+.busca {
+    display: flex;
+    width: 300px;
+}
+.busca #searchInput {
+    flex: 1;
+    padding: 10px;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 2px 2px 2px #555;
+}
+.busca button {
+    padding: 10px;
+    font-size: 15px;
+    border: 0;
+    background-color: #ccc;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #555;
+}
+.busca button:hover {
+    background-color: #666;
+    box-shadow: 2px 2px 2px #555;
+}
+.resultado {
+    width: 400px;
+    display: none;
+    border: 1px dotted #FFF;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.titulo {
+    width: 100%;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+.titulo img {
+    margin-left: 5px;
+    height: 13px;
+}
+.info {
+    display: flex;
+    width: 100%;
+}
+.info .temp {
+    flex: 1;
+    text-align: center;
+    margin-right: 20px;
+}
+.info .vento {
+    flex: 1;
+    text-align: center;
+}
+.tempTitulo,
+.ventoTitulo,
+.umidadeTitulo {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.tempInfo,
+.ventoInfo,
+.umidadeInfo {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.iconDesc {
+    margin-top: -20px;
+    color: #FFF;
+    font-size: 16px;
+    overflow-wrap: normal;
+}
+.iconDesc::first-letter {
+    text-transform: uppercase;
+  }
+.tempInfo sup {
+    font-size: 15px;
+    font-weight: normal;
+}
+.umidadeInfo sup {
+    font-size: 15px;
+    font-weight: normal;
+}
+.ventoInfo span {
+    font-size: 15px;
+    font-weight: normal;
+}
+.ventoArea {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+.ventoPonto {
+    width: 18px;
+    height: 1px;
+    background-color: #FFF;
+    transform-origin: left;
+}
+.aviso {
+    color: #FFF;
+    padding-top: 20px;
+}
+footer {
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px #333;
+}
+footer a {
+    color: #fff;
+}
