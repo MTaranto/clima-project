@@ -10,7 +10,7 @@ body {
     align-items: center;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(/assets/images/clouds-49520_960_720.jpg);
+    background-image: url(https://github.com/MTaranto/clima-project/blob/main/assets/images/clouds-49520_960_720.jpg);
     background-position: center;
     background-size: cover;
 }
