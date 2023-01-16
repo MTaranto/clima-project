@@ -10,12 +10,12 @@ body {
     align-items: center;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(/blob/main/assets/images/clouds-49520_960_720.jpg);
+    background-image: url(https://github.com/MTaranto/clima-project/blob/main/assets/images/clouds-49520_960_720.jpg);
     background-position: center;
     background-size: cover;
 }
 h1 {
-    color: #000;
+    color: #fff;
     margin-bottom: 20px;
     margin-left: -40px;
     text-shadow: 2px 2px 2px #555;
